@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon Clone</title>
-    <link rel="stylesheet" href="Design.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/amazon-main-content.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
-  <body bgcolor="">
+  <body>
     <header>
       <div id="navbar1" class="navbar1">
         <div class="nav-logo border">
@@ -84,7 +86,11 @@
         </div>
 
         <div class="nav-cart border">
-          <div class="cart-logo"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="cart-logo">
+            <!--  -->
+            <img src="cart-icon.png" alt="\_/" />
+          </div>
+          <div class="cart-quantity">0</div>
           <p class="cart-name">Cart</p>
         </div>
       </div>
@@ -112,15 +118,16 @@
         </div>
       </div>
     </header>
+
     <div class="content">
-      <div class="hero-section">
+      <div class="hero-section"></div>
         <div class="shop-section">
           <div class="box1 box">
             <div class="box-content">
               <h2>Clothes</h2>
               <div
                 class="box-img"
-                style="background-image: url('box1_image.jpg')"
+                style="background-image: url('images/box1_image.jpg')"
               ></div>
               <p>Shop now</p>
             </div>
@@ -131,7 +138,7 @@
               <h2>Health and Personal care</h2>
               <div
                 class="box-img"
-                style="background-image: url('box2_image.jpg')"
+                style="background-image: url('images/box2_image.jpg')"
               ></div>
               <p>Shop now</p>
             </div>
@@ -141,7 +148,7 @@
               <h2>Furniture</h2>
               <div
                 class="box-img"
-                style="background-image: url('box3_image.jpg')"
+                style="background-image: url('images/box3_image.jpg')"
               ></div>
               <p>Shop now</p>
             </div>
@@ -151,7 +158,7 @@
               <h2>Electronics</h2>
               <div
                 class="box-img"
-                style="background-image: url('box4_image.jpg')"
+                style="background-image: url('images/box4_image.jpg')"
               ></div>
               <p>Shop now</p>
             </div>
@@ -161,7 +168,7 @@
               <h2>Cosmetics</h2>
               <div
                 class="box-img"
-                style="background-image: url('box5_image.jpg')"
+                style="background-image: url('images/box5_image.jpg')"
               ></div>
               <p>Shop now</p>
             </div>
@@ -172,7 +179,7 @@
               <h2>Pet care</h2>
               <div
                 class="box-img"
-                style="background-image: url('box6_image.jpg')"
+                style="background-image: url('images/box6_image.jpg')"
               ></div>
               <p>Shop now</p>
             </div>
@@ -182,7 +189,7 @@
               <h2>Books and related section</h2>
               <div
                 class="box-img"
-                style="background-image: url('box7_image.jpg')"
+                style="background-image: url('images/box7_image.jpg')"
               ></div>
               <p>Shop now</p>
             </div>
@@ -192,19 +199,18 @@
               <h2>Fashion Trends</h2>
               <div
                 class="box-img"
-                style="background-image: url('box8_image.jpg')"
+                style="background-image: url('images/box8_image.jpg')"
               ></div>
               <p>Shop now</p>
             </div>
           </div>
         </div>
-      </div>
+      
     </div>
+    <br />
 
     <footer>
-      <div class="foot-panel1">
-        Back to Top
-      </div>
+      <div class="foot-panel1">Back to Top</div>
 
       <div class="foot-panel2">
         <ul>
@@ -243,10 +249,9 @@
           <a href="#">Amazon App Download</a>
           <a href="#">Help</a>
         </ul>
-
       </div>
 
-      <div class="foot-panel3">         
+      <div class="foot-panel3">
         <img class="foot-logo" src="Amazon-logo.png" alt="Amazon" />
         <div>
           <select name="language" id="lang" class="foot-sel-lang border">
@@ -259,17 +264,18 @@
             <option value="BN">বাংলা</option>
           </select>
         </div>
-    </div>
-    <div class="foot-panel4">
-      <a href="#"> Conditions of Use & Sale</a>
-      <a href="#">Privacy Notice</a>
-      <a href="#">Interest-Based Ads</a>
-    </div>
+      </div>
+      <div class="foot-panel-bottom">
+        <div class="foot-panel4">
+          <a href="#"> Conditions of Use & Sale</a>
+          <a href="#">Privacy Notice</a>
+          <a href="#">Interest-Based Ads</a>
+        </div>
 
-    <div class="copyright">
-      <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
-    </div>
-      
+        <div class="copyright">
+          <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
