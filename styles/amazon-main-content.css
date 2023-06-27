@@ -25,9 +25,14 @@ body{
 
 /* shop section */
 
+
+
 .shop-section{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    column-gap: 1rem;
     justify-content: space-evenly;
     align-items: center ;
     /* position: relative ;
@@ -38,7 +43,7 @@ body{
 .box{
     
     height: 26rem;
-    width: 23%;
+    width: 100%;
     background-color: #f3f3f3;
     padding: 20px 0px 15px;
     margin-top: 0.4rem;
