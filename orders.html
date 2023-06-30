@@ -120,9 +120,79 @@
             <a href="#">Your Account</a> >
             Your orders
         </div>
-        <div>
+        <div class="search-filter">
             <p>Your Orders</p>
+           
+            <div class="order-search">
+                <div class="order-search-bar">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #000714;"></i>
+                    <input type="text" placeholder=" Search all orders">
+                </div>
+                <button>Search orders</button>
+    
+            </div>
+           
         </div>
+        <div class="order-options-pages">
+            <a href="#">Orders</a>
+            <a href="#">Buy Again</a>
+            <a href="#">Not Yet Shipped</a>
+            <a href="#">Cancelled Orders</a>
+           
+        </div>
+        <hr style="display: block; width: 100%;height: 1px;color: grey; margin: auto;">
+        <div class="order-place-count">
+            <span class="order-count">1 order</span>
+            <span>placed in </span>
+            <select name="time-filter" id="time-filter" class="days-filter">
+                <option value="">last 30 days</option>
+                <option value="">last 3 months</option>
+                <option value="">2022</option>
+                <option value="">2021</option>
+                <option value="">2020</option>
+                <option value="">2019</option>
+            </select>
+        </div>
+
+        <div class="past-order-box">
+            <div class="order-details">
+                <div>
+                    <span>ORDER PLACED</span>
+                    <span>TOTAL</span>
+                    <span>SHIP TO</span>
+                    <span>ORDER # 403-6599739-6861921</span>
+                </div>
+                <div>
+                    <span>8 April,2021</span>
+                    <span>&#8377 499.00</span>
+                    <span>Gaurav</span>
+                    <a href="#">View order details</a>
+                    <a href="#">Invoice</a>
+                </div>
+            </div>
+
+            <div class="order-container">
+                <img class="order-image" src="images/past-order1.jpg" alt="@">
+
+                <div>
+                    <a  class="order-description" href="#">
+                        Boult Audio Bass Buds Q2 Over-Ear Wired Lightweight Stereo Headphones, Deep Bass & in-Built Mic, Headset with Comfortable Ear Cushions, Long Cord (Black)
+                    </a>
+                    <p>Return window closed on 17-Apr-2021</p>
+                    <button class="order-item-view"> View your item</button>
+                </div>
+                <button class="order-review-button">
+                    Write a product review
+                </button>
+            </div>
+            <div class="archive-order">
+                <a href="#">Archive order</a>
+            </div>
+           
+        </div>
+
+
+
     </div>
 
 
@@ -132,69 +202,69 @@
 
     <footer>
         <div class="foot-panel1">Back to Top</div>
-  
+
         <div class="foot-panel2">
-          <ul>
-            <p>Get to Know Us</p>
-            <a href="#">About Us</a>
-            <a href="#">Careers</a>
-            <a href="#">Press Releases</a>
-            <a href="#">Amazon Science</a>
-          </ul>
-  
-          <ul>
-            <p>Contact with Us</p>
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-          </ul>
-  
-          <ul>
-            <p>Make Money with Us</p>
-            <a href="#">Sell on Amazon</a>
-            <a href="#">Sell under Amazon Accelerator</a>
-            <a href="#">Protect and Build Your Brand</a>
-            <a href="#">Amazon Global Selling</a>
-            <a href="#">Become an Affiliate</a>
-            <a href="#">Fulfilment by Amazon</a>
-            <a href="#">Advertise Your Products</a>
-            <a href="#">Amazon Pay on Merchants</a>
-          </ul>
-  
-          <ul>
-            <p>Let Us Help You</p>
-            <a href="#">COVID-19 and Amazon</a>
-            <a href="#">Your Account</a>
-            <a href="#">Returns Centre</a>
-            <a href="#">100% Purchase Protection</a>
-            <a href="#">Amazon App Download</a>
-            <a href="#">Help</a>
-          </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+
+            <ul>
+                <p>Contact with Us</p>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </ul>
+
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="#">Sell on Amazon</a>
+                <a href="#">Sell under Amazon Accelerator</a>
+                <a href="#">Protect and Build Your Brand</a>
+                <a href="#">Amazon Global Selling</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Fulfilment by Amazon</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Amazon Pay on Merchants</a>
+            </ul>
+
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="#">COVID-19 and Amazon</a>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Amazon App Download</a>
+                <a href="#">Help</a>
+            </ul>
         </div>
-  
+
         <div class="foot-panel3">
-          <img class="foot-logo" src="Amazon-logo.png" alt="Amazon" />
-          <div>
-            <select name="language" id="lang" class="foot-sel-lang border">
-              <option value="EN">English</option>
-              <option value="HI">हिन्दी</option>
-              <option value="TA">தமிழ்</option>
-              <option value="TE">తెలుగు</option>
-              <option value="KN">ಕನ್ನಡ</option>
-              <option value="ML">മലയാളം</option>
-              <option value="BN">বাংলা</option>
-            </select>
-          </div>
+            <img class="foot-logo" src="Amazon-logo.png" alt="Amazon" />
+            <div>
+                <select name="language" id="lang" class="foot-sel-lang border">
+                    <option value="EN">English</option>
+                    <option value="HI">हिन्दी</option>
+                    <option value="TA">தமிழ்</option>
+                    <option value="TE">తెలుగు</option>
+                    <option value="KN">ಕನ್ನಡ</option>
+                    <option value="ML">മലയാളം</option>
+                    <option value="BN">বাংলা</option>
+                </select>
+            </div>
         </div>
         <div class="foot-panel-bottom">
-          <div class="foot-panel4">
-            <a href="#"> Conditions of Use & Sale</a>
-            <a href="#">Privacy Notice</a>
-            <a href="#">Interest-Based Ads</a>
-          </div>
-  
-          <div class="copyright">
-            <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
-          </div>
+            <div class="foot-panel4">
+                <a href="#"> Conditions of Use & Sale</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interest-Based Ads</a>
+            </div>
+
+            <div class="copyright">
+                <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+            </div>
         </div>
-      </footer>
+    </footer>
