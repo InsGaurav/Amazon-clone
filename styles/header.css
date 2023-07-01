@@ -5,6 +5,7 @@
 }
 
 
+
 .navbar1{
     background-color: #0f1111;
     width:device-width;
@@ -167,6 +168,10 @@
     font-weight: bold;
 }
 
+.nav-return a{
+    text-decoration: none;
+    color: white;
+}
 
 
 .nav-cart{
