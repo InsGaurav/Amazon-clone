@@ -186,7 +186,7 @@ we make all the grid items to display over the .page-name */
     grid-row-start: 1;
     grid-row-end: 2;
     padding-left: 1rem;
-    width: 15rem;
+    width: 17rem;
     padding-bottom: 2rem;
     padding-right: 1rem;
     
@@ -215,7 +215,7 @@ we make all the grid items to display over the .page-name */
 .proceed-buy{
 
     background-color:rgb(232, 232, 0);
-    width: 15rem;
+    width: 17rem;
     height: 1.6rem;
     border: 2px solid rgb(97, 205, 248);
    border-radius: 8px;
@@ -224,6 +224,8 @@ we make all the grid items to display over the .page-name */
 
 #cart-subtotal{
     margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 530;
 }
 
 .gift-voucher{
@@ -232,7 +234,7 @@ we make all the grid items to display over the .page-name */
     padding-bottom: 1rem;
 }
 .EMI{
-    width: 15rem;
+    width: 17rem;
     height:2.5rem ;
     text-align: center;
     margin-top: 1rem;
@@ -247,6 +249,7 @@ we make all the grid items to display over the .page-name */
 
 .cart-related-products{
     padding: 1rem;
+    border-radius: 8px;
     
     background-color: white;
     grid-column-start: 2;
