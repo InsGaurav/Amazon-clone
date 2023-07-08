@@ -50,6 +50,10 @@ body{
     margin-bottom: 0.4rem;
 }
 
+.box a{
+    text-decoration: none;
+}
+
 .box-img{
     height: 22rem;
     background-size: cover;
@@ -65,5 +69,17 @@ body{
 }
 .box-content p{
     color: #007185;
+
+
 }
+
+
+
+
+
+
+
+
+
+
 
