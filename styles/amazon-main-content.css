@@ -52,7 +52,9 @@ body{
 
 .box a{
     text-decoration: none;
+    color: black;
 }
+
 
 .box-img{
     height: 22rem;
@@ -67,7 +69,7 @@ body{
     margin-right: 1rem;
    
 }
-.box-content p{
+.box-content span{
     color: #007185;
 
 
