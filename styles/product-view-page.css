@@ -13,10 +13,7 @@
   top: 0;
   height: 80vh;
   
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 2;
+ 
   
 }
 
@@ -29,7 +26,8 @@
   align-items: flex-start;
   border: 1px solid #d5d9d9;
   border-radius: 5px;
-  margin: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .home-container3{
@@ -46,7 +44,8 @@
   border-radius: 5px;
 }
 .product-content-desc{
-  margin:2rem;
+  margin-top:2rem;
+  margin-bottom: 2rem;
   grid-row-start: 1;
   grid-row-end: 5;
   grid-column-start: 2;
@@ -102,17 +101,9 @@
   margin-right: 8%;
 }
 
+
 .product-price{
   padding-top: 1rem;
-}
-
-
-
-
-
-
-
-.product-price{
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
@@ -268,6 +259,9 @@
 }
 .about-item-details2 li{
   margin-bottom: 0.5rem;
+  list-style: none;
+  
+
 }
 
 
@@ -353,6 +347,7 @@
   margin-top: 2rem;
   padding: 1rem;
   border: 1px solid #d5d9d9;
+  border-radius: 8px;
   
 }
 
@@ -412,9 +407,33 @@
 .product-protection-plan label ,input , span , a{
  
   line-height: 1.4rem;
-  
- 
 
+}
+
+.product-protection-plan input[type="radio"] {
+  box-sizing: border-box;
+  appearance: none;
+  background: white;
+  border: 3px solid #d5d9d9;
+  width: 16px;
+  height: 16px;
+
+ 
+}
+
+.radio-checkmark {
+  position: relative;
+  right: 18px ;
+  bottom: 2.3px;
+  opacity: 0;
+
+}
+
+.product-protection-plan input[type="radio"]:checked ,.radio-checkmark{
+  
+  border: 3px solid #007185;
+ 
+ 
 }
 
 #pp{
@@ -464,7 +483,11 @@
   border-bottom: 1px solid #d5d9d9;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  margin-right: 0.5rem;
 }
+
+
+
 
 
 .add-wishlist-button{
@@ -472,6 +495,8 @@
   width: 90%;
   padding: 0.5rem;
 }
+
+
 
 
 
