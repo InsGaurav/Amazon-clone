@@ -117,6 +117,11 @@
 }
 
 .des {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  white-space: pre-wrap;
   color: #0f1111;
   text-decoration: none;
   font-size: 1.1rem;
@@ -132,11 +137,20 @@
 .rating {
   display: flex;
   align-items: center;
+  padding-top: 4px;
+}
+
+.stars-count{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  padding-right: 2px;
 }
 
 .stars {
   display: inline-block;
-  width: 96px;
+  width: 17px;
   height: 18px;
   background: url("../images/ratings/rating-40.png");
   background-size: cover;
@@ -189,7 +203,8 @@
   font-size: 13px;
 }
 
-.mrp{
+.mrp,
+.extra-discount{
   font-size: 14px;
   color: #565959;
 }
@@ -202,6 +217,17 @@
 
 .off{
   font-size: 14px;
+}
+
+.extra-discount{
+  padding-left: 2.5px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.delivery{
+  box-sizing: border-box;
+  padding-top: 4px;
 }
 
 .prime{
